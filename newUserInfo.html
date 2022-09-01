@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- cdn inport for bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Our Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!--name of our app -->
+    <title>Planner</title>
+
+     <!-- insert favicon -->
+     <link rel="icon" type="image/x-icon" href="C:\Users\aerio\Downloads\LogoMakr-25Hf26.png">
+
+</head>
+<body id="new-user">
+    <header id="new-user-head">
+        <h1 class="display-4">New User Form</h1>
+    </header>
+    <main>
+        <!-- an email section of the form is created. -->
+        <form id="new-user-form">
+            <div class="form-group new-user-container">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control new-user" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="susan_b@gmail.com" required>
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <!-- a text area portion of the form is created -->
+            <div class="form-group new-user-container">
+                <label for="exampleFormControlTextarea1">Name</label>
+                <input type="text" class="form-control new-user" id="exampleFormControlTextarea1" rows="3" placeholder="Susan B. Anthony"required></input>
+              </div>
+
+            <!-- a password portion of the form is created -->
+            <div class="form-group new-user-container">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control new-user" id="exampleInputPassword1" placeholder="lalalala" required>
+            </div>
+
+            <!-- this creates the job position portion of the form -->
+            
+            <div class="form-group new-user-container">
+                <label for="exampleFormControlTextarea1">Job Position</label>
+                <input type="text" class="form-control new-user" id="exampleFormControlTextarea1" rows="3" placeholder="Student" required></input>
+            </div>
+            <!-- this allows users to insert a picture for their profile. -->
+            <div class="form-group new-user-container">
+                <label for="exampleFormControlFile1">Insert Picture for Profile</label>
+                <input type="file" class="form-control-file " id="exampleFormControlFile1" required>
+            </div>
+            <!-- this creates the submit button at the bottom of the page -->
+            <div class="new-user-container">
+                <button type="submit" class="btn new-user-submit font-weight-bold">Submit</button>
+            </div>
+              
+          </form>
+
+          
+          <!-- the is the logo that goes at the bottom of pages with white backgrounds -->
+        <footer>
+            <div class="logo-style">
+                <img src="C:\Users\aerio\Downloads\LogoMakr-140ZZj.png" alt="logo"/>
+            </div>
+        </footer>
+    
+</body>
+</html>
