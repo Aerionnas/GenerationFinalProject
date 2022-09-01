@@ -1,0 +1,156 @@
+/* this applies to the entire body of the newUserInfo.html */ 
+ /* the entire page is given a left and right padding */
+ #new-user{
+    background-color: #ffffee;
+    color:#795695;
+    padding-left:35px;
+    padding-right:35px;
+    
+}
+
+/* this applies to several of the input elements */
+.new-user{
+    background-color: #D7B4F3;  
+    width:100%; 
+
+}
+
+/* this applies only to the header containter */
+#new-user-head{
+    padding-bottom: 50px;
+    display:flex;
+    justify-content: center;
+    padding-top:48px;
+
+
+}
+
+/* this class is has been applied to all of the elements in form so that they have a padding on the bottom */
+.new-user-container{
+    padding-bottom: 30px;
+}
+/* this is for the submit button color */
+.new-user-submit{
+    background-color:#795695;
+}
+
+
+/* the this places the logo in the center of the page */
+.logo-style{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    padding-bottom: 8px;
+    
+} 
+
+
+ .status-padding{
+   
+    
+    padding: .75rem 1.25rem;
+    
+} 
+
+/* this app is a mobile-first design, so this section is necessary in order to
+rearrange the elements of the app to fit a tablet and dekstop */
+
+@media only screen and (min-width:768px){
+    /* the width of the body id going to change to being only 40%.
+    The form is going to take up half of the page.
+     */
+    
+   .new-user{
+    width:40%;
+   } 
+   /* this changes the look of the heading. The width is going to go from 100% to 40% */
+   #new-user-head{
+    width:40%;
+    
+   }
+   /* this center the logo on the left side of first page. */
+   .logo-style{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+   } 
+}
+
+
+
+
+
+/* this applies to the entire body of the newUserInfo.html */ 
+ /* the entire page is given a left and right padding */
+ #create-task{
+    background-color: #D1A74D;
+    color:#795695;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* this applies to several of the input elements */
+.create-task{
+    background-color: #ffffee !important ;  
+    color:#795695;
+}
+
+#date{
+    background-color: #ffffee !important;
+    
+}
+
+.input-group-text {
+    background-color: #795695 !important;
+}
+
+.fa-calendar{
+    color:#ffffee !important;
+    background-color: #795695 !important;
+}
+
+.card-color{
+    background-color: #795695;
+    color: #795695;
+    
+}
+
+.datepicker{
+    background-color: #ffffee !important;
+    color:#795695 !important;
+}
+
+.list-group{
+    background-color:#795695 !important;
+
+}
+
+.list-group-item{
+    background-color:#795695 !important; 
+    color:#ffffee !important; 
+}
+
+.card-header{
+    background-color:#ffffee !important;
+    border: 4px solid #795695;
+}
+
+#status{
+    background-color:#795695 !important;
+    color:#ffffee !important;
+}
+
+.create-task-submit{
+    background-color: #795695!important;
+    color:#ffffee !important;
+}
+
+
+
+
+
+
+
+
+
+
