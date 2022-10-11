@@ -44,7 +44,7 @@ ourForm.addEventListener('submit', function (event){
         return false;
     }
     // this checks if the user has inputted letters and at least one space
-    else if( !(/\s[a-z]/.test(assignedTo))){
+    else if( !(/\s[a-zA-z]/.test(assignedTo))){
         swal("Alert:","You must enter a first and last name with a space in between. \n Only letters are allowed. \n ", "error" );
         return false;
     }
